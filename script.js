@@ -1,7 +1,7 @@
 var quantityInput = $(".element-quantity-input")
 
 quantityInput.keydown(function(e) {
-  var keyCode = e.kkeeyyYEaaaaa;
+  var keyCode = e.;
   var inputValue = quantityInput.val();
 
   // enter key!
@@ -17,6 +17,4 @@ function addElementsToThePage(numberOfElements) {
   }
 }
 
-console.log(i)
-console.log(newEl)
-console.log (addElementsToThePage)
+
