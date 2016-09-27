@@ -16,3 +16,7 @@ function addElementsToThePage(numberOfElements) {
     $(".element-display").append(newEl);
   }
 }
+
+console.log(i)
+console.log(newEl)
+console.log (addElementsToThePage)
