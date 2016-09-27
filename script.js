@@ -11,8 +11,7 @@ quantityInput.keydown(function(e) {
 })
 
 function addElementsToThePage(numberOfElements) {	  
-  var nu
-  for (var i = 0; i < number; i++) {
+  for (var i = 0; i < numberOfElements.val(); i++) {
     var newEl = $("<div class='new-el'>Hi there!</div>");		
     $(".element-display").append(newEl);
   }
